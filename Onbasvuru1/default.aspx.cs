@@ -67,7 +67,7 @@ namespace Onbasvuru1
                 con.Close();
                 MailMessage mesajim = new MailMessage();
                 SmtpClient istemci = new SmtpClient();
-                istemci.Credentials = new System.Net.NetworkCredential("ozkanzorludur@hotmail.com", "Qwer4321");
+                istemci.Credentials = new System.Net.NetworkCredential("ozkanzorludur@hotmail.com", "**********");
                 istemci.Port = 587;
                 istemci.Host = "smtp-mail.outlook.com";
                 istemci.EnableSsl = true;
